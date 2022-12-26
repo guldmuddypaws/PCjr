@@ -2,4 +2,10 @@
 #
 # COPYING - software license
 #
-# crc.cpp - C++ implementation of the BIOS CRC routine. Allows for command line options to compute CRC for a given file. Can ignore last 2 bytes (CRC code) and/or ignore header information for PCjr cartridge formatted files (.jrc)
+# crc.cpp
+# -------
+# C++ implementation of the BIOS CRC routine. Allows for command line options to compute CRC for a given file. Can ignore last 2 bytes (CRC code) and/or ignore header information for PCjr cartridge formatted files (.jrc)
+#
+# pcjr_cart_template.asm
+# ----------------------
+# Template assembly file for creating PCjr cartridges/.COM files using the Netwide Assembler (NASM)

@@ -9,7 +9,7 @@
 
 	use16
 
-;; Setup program length if 512 byte blocks. e.g. for a 1024 byte
+;; Setup program length in 512 byte blocks. e.g. for a 1024 byte
 ;; program, this next value will be 2. (modify this!)
 program_blocks:	        equ 0x02
 	;; Program length in bytes minus CRC bytes
@@ -55,7 +55,7 @@ start:
 	;; For cartridges, fill in the remaining space with 0s followed by
 	;; the CRC.
         %ifndef com_file
-	times 1022-($-$$) db 0x00
+	times program_length-($-$$) db 0x00
 	;; Insert CRC here (modify this!)
 	db 0xe1,0x4e		  ; CRC
 	%endif

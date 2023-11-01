@@ -9,6 +9,7 @@ Main PCJR 40th anniversary graphic program. Runs in 320x200 16 color graphics mo
 
 Works with:
 jrconfig.sys /v32 and /v64 options (not /v16)
+
 pcjrmem.com /c option
 
 # PCJRBMP.H

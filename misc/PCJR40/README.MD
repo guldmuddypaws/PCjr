@@ -8,6 +8,7 @@ Borland Turbo C compiler Makefile for building PCJR40.COM
 Main PCJR 40th anniversary graphic program. Runs in 320x200 16 color graphics mode
 
 Works with:
+
 jrconfig.sys /v32 and /v64 options (not /v16)
 
 pcjrmem.com /c option
